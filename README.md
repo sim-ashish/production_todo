@@ -1,2 +1,4 @@
 # production_todo
-this is production repository for todo application
+## steps to run
+---
+- set a cookie in your browser key = 'user' and value = 1, or value can be your user created id
