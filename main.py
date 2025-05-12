@@ -49,7 +49,7 @@ app.add_middleware(
 def on_startup() -> None:
     create_tables()
 
-@app.get("/", tags = ['Documentation'], summary="documentation")
+@app.get("/", tags = ['Documentation'], summary="documentation", include_in_schema= False)
 def main():
      return RedirectResponse(url="/documentation")
 
